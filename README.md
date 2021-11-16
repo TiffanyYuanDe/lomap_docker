@@ -19,3 +19,4 @@
     docker run -it --rm -v $(pwd):/[any_name] -w /[any_name] lomap /bin/bash
     ```
     Replace [any_name] with any valid folder name.
+6. done
