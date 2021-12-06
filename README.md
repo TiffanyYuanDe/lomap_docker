@@ -47,11 +47,12 @@ It's easier to run Dockerfile using VS Code with Remote-Container plugin.
 
 1. Install VS Code
 2. Install Remote-Container plugin inside vscode
-3. Clone this repository.
-4. Create a new folder to serve as the workspace of your project.
-5. Copy `.dockerignore`, `Dockerfile`, `install.sh` from the repository to the new folder created.
-6. Open the new folder using vscode, follow the link [here](https://code.visualstudio.com/docs/remote/containers#_quick-start-open-an-existing-folder-in-a-container).
-7. You can ask vscode to create a terminal to access the virtual machine.
+3. Start Docker if not already done so. 
+4. Clone this repository.
+5. Create a new folder to serve as the workspace of your project.
+6. Copy `.dockerignore`, `Dockerfile`, `install.sh` from the repository to the new folder created.
+7. Open the new folder using vscode, follow the link [here](https://code.visualstudio.com/docs/remote/containers#_quick-start-open-an-existing-folder-in-a-container).
+8. You can ask vscode to create a terminal to access the virtual machine.
 
 Any modifications made inside the "virtual" machine will be saved. Those file - read, write and create issues will mostly handled by vs code.
 
