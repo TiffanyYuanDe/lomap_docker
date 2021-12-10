@@ -40,6 +40,10 @@ cp ltl2dstar ~/bin/
 echo 'export PATH="$PATH:$HOME/bin"' >> ~/.bashrc
 
 cd /
+rm -f /ltl2dstar-0.5.4.tar.gz 
+rm -f /pp-1.6.4.4.zip 
+
 echo 'export PYTHONPATH="${PYTHONPATH}:/lomap"' >> ~/.bashrc
 echo 'export PS1="\e[0;34m\u@\w> \e[m"' >> ~/.bashrc
+
 
