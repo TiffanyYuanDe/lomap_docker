@@ -1,6 +1,7 @@
 #!/bin/bash
 
-git clone https://github.com/wasserfeder/lomap.git
+# lomap that works for python 3.9
+git clone https://github.com/yzanhua/lomap.git
 
 # install spot
 wget -q -O - https://www.lrde.epita.fr/repo/debian.gpg | apt-key add -
