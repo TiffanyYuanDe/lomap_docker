@@ -6,7 +6,7 @@ git clone https://github.com/wasserfeder/lomap.git
 wget -q -O - https://www.lrde.epita.fr/repo/debian.gpg | apt-key add -
 sh -c "echo 'deb http://www.lrde.epita.fr/repo/debian/ stable/' >> /etc/apt/sources.list"
 apt-get update
-apt-get install -qqy spot libspot-dev spot-doc
+apt-get install -qqy spot libspot-dev spot-doc vim
 apt-get install -qqy python3-spot
 
 
