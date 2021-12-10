@@ -34,7 +34,7 @@ cd ltl2dstar-0.5.4
 mkdir build
 cd build
 cmake -DCMAKE_BUILD_TYPE=Release ../src
-make
+make -j4
 
 mkdir ~/bin
 cp ltl2dstar ~/bin/
